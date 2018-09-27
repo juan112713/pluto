@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ruta: one
+  paradero: one
+  cantidad_solicitudes: 1
+  punto_inicial: false
+  punto_fin: false
+  estado: MyString
+
+two:
+  ruta: two
+  paradero: two
+  cantidad_solicitudes: 1
+  punto_inicial: false
+  punto_fin: false
+  estado: MyString

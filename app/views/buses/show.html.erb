@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Movil:</strong>
+  <%= @bus.movil %>
+</p>
+
+<p>
+  <strong>Cantidad sillas:</strong>
+  <%= @bus.cantidad_sillas %>
+</p>
+
+<p>
+  <strong>Total pasajeros:</strong>
+  <%= @bus.total_pasajeros %>
+</p>
+
+<p>
+  <strong>Estado:</strong>
+  <%= @bus.estado %>
+</p>
+
+<%= link_to 'Edit', edit_bus_path(@bus) %> |
+<%= link_to 'Back', buses_path %>

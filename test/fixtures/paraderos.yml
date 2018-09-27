@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre_p: MyString
+  tipo_p: MyString
+  ubicacion_p: MyString
+
+two:
+  nombre_p: MyString
+  tipo_p: MyString
+  ubicacion_p: MyString

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre p:</strong>
+  <%= @paradero.nombre_p %>
+</p>
+
+<p>
+  <strong>Tipo p:</strong>
+  <%= @paradero.tipo_p %>
+</p>
+
+<p>
+  <strong>Ubicacion p:</strong>
+  <%= @paradero.ubicacion_p %>
+</p>
+
+<%= link_to 'Edit', edit_paradero_path(@paradero) %> |
+<%= link_to 'Back', paraderos_path %>

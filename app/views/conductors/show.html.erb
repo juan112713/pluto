@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @conductor.nombre %>
+</p>
+
+<p>
+  <strong>Apellido:</strong>
+  <%= @conductor.apellido %>
+</p>
+
+<p>
+  <strong>Tipo doc identidad:</strong>
+  <%= @conductor.tipo_doc_identidad %>
+</p>
+
+<p>
+  <strong>Num doc identidad:</strong>
+  <%= @conductor.num_doc_identidad %>
+</p>
+
+<p>
+  <strong>Estado:</strong>
+  <%= @conductor.estado %>
+</p>
+
+<%= link_to 'Edit', edit_conductor_path(@conductor) %> |
+<%= link_to 'Back', conductors_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  movil: MyString
+  cantidad_sillas: 1
+  total_pasajeros: 
+  estado: MyString
+
+two:
+  movil: MyString
+  cantidad_sillas: 1
+  total_pasajeros: 
+  estado: MyString

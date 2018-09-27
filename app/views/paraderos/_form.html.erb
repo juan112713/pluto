@@ -1,0 +1,32 @@
+<%= form_with(model: paradero, local: true) do |form| %>
+  <% if paradero.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(paradero.errors.count, "error") %> prohibited this paradero from being saved:</h2>
+
+      <ul>
+      <% paradero.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nombre_p %>
+    <%= form.text_field :nombre_p %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tipo_p %>
+    <%= form.text_field :tipo_p %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ubicacion_p %>
+    <%= form.text_field :ubicacion_p %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
